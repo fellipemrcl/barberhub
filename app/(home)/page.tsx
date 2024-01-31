@@ -3,7 +3,7 @@ import Header from "../_components/header";
 
 import { format } from "date-fns";
 import Search from "./_components/search";
-import Booking from "../_components/bookingItem";
+import BookingItem from "../_components/bookingItem";
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
         <h2 className="mb-3 text-xs font-bold uppercase text-gray-400">
           Agendamentos
         </h2>
-        <Booking />
+        <BookingItem />
       </div>
     </div>
   );
